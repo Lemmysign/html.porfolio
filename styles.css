@@ -1,0 +1,534 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 58px 40px;
+    width: 100%;
+    height: 75px;
+    background: #D0E2D4;
+}
+
+.logo p{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+
+.navbar{
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.40);
+
+    ;
+    padding: 20px 70px;
+    border-radius: 30px;
+    
+    
+}
+
+.navbar a{
+   padding: 0 30px;
+   color: black;
+   font-size: 16px;
+}
+
+.icon{
+    display: flex; 
+}
+
+.icon img{
+    width: 19px;
+    margin: 0 27px;
+}
+
+
+
+.hero{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+ 
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+  
+}
+
+.color{
+    background-color: #D0E2D4;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+.color h1{
+    color: #6F9950;
+    font-size: 50px;
+}
+
+.color p{
+    color: rgba(106, 82, 5, 0.80);
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.color-content{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 150px;
+    flex-direction: column;
+    gap: 20px;
+}
+.color-button{
+    padding-top: 20px;
+}
+
+.color-button button{
+    font-size: 15px;
+    color: white;
+    padding: 18px 50px;
+    border-radius: 10px;
+    background-color: #6F9950;
+    box-shadow: 0px 8px 18px 0px rgba(0, 0, 0, 0.50) inset;
+    filter: drop-shadow(0px 50px 18px rgba(0, 0, 0, 0.05)); 
+}
+
+.text{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+}
+
+secondhero{
+    text-align: center;
+    font-family: lato;
+}
+
+.about-content{
+    display: grid;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    
+    padding-top: 50px;
+    
+    
+}
+
+.about{
+    padding-top: 100px;
+}
+
+.plus{
+    color: #6A5205;
+}
+
+.about{
+color: #6A5205;
+font-family: Lato;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.buyer{
+    color: #080705;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.orangetext{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    font-family: Lato;
+    border-radius: 15px;
+    background: rgba(247, 185, 151, 0.276);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(3px);
+}
+
+.orangetext > *{
+    padding: 0 60px;
+}
+
+.orange-muse img{
+    width: 100%;
+}
+
+#thirdhero{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 40px;
+}
+
+#thirdhero .third{
+    padding-top: 150px;
+}
+
+.orangebutton{
+    display: flex;
+    gap: 25px;
+}
+
+.orangetext2{
+    padding: 40px 50px;
+}
+
+.button{
+    border: 0.5px solid black;
+    border-radius: 10px;
+    background-color: #df9c31;
+    padding: 15px 50px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.buttontwo{
+    text-align: center;
+    width: 140px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    background-color: #080705;
+    padding: 15px 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.fourth{
+    padding: 300px 0;
+}
+#fourthhero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.green-muse img{
+    width: 100%;
+}
+
+.yellowtext{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    font-family: Lato;
+    border-radius: 15px;
+    background: rgba(247, 239, 151, 0.151);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(3px);
+}
+
+.button1{
+    border: 0.5px solid black;
+    border-radius: 10px;
+    background-color: #E6C247;
+    padding: 15px 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.fourth{
+    padding: 300px 0;
+}
+
+happy{
+    font-family: Lato;
+    text-align: center;
+}
+
+companies{
+    width: 100%;
+    padding: 100px 40px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+companies img{
+    margin: 0 30px;
+    width: 200px;
+
+flex-shrink: 0;
+
+}
+
+companyone{
+    text-align: center;
+    padding: 20px 0;
+  
+    background: #FFF;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
+}
+
+testimony{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(107deg, #D5D9DC 1.11%, #E0EBE5 99.4%);
+}
+
+.girlimg{
+    width: 400px;
+    margin: 50px 30px;
+}
+.testimony-content{
+    width: 50%;
+    font-family: lato;
+}
+
+.testimony-content p{
+    font-size: 20px;
+    font-family: lato;
+}
+
+.wendy{
+    color: #AF8161;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.ceo{
+    padding-top: 15px;
+}
+
+span{
+    font-size: 30px;
+    color: #AF8161;
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+
+}
+
+.arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AF8161;
+    width: 50px;
+    color: white;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+}
+.arrow-right p{
+font-size: 30px;
+}
+
+.arrow-left p{
+    font-size: 30px;
+    }
+    
+
+.arrow-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00000080;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.arrow{
+    margin: 50px 0;
+}
+
+blog{
+    font-family: lato;
+    text-align: center;
+}
+
+blog p{
+    color: #6A5205;
+    font-size: 20px;
+    font-weight: 550;
+    padding-top: 120px;
+}
+
+blog h1{
+    padding-top: 50px;
+}
+
+
+.bottle-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 120px 50px;
+}
+
+.bottle-one{
+    width: auto;
+    height: 800px;
+    border-radius: 30px;
+background: #FFF;
+box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.bottle-one img{
+    width: 100%;
+}
+
+
+.bottle-text .textb{
+    padding: 30px 48px;
+}
+
+.bottle-text .textb2{
+    padding: 0 52px;
+}
+
+.textb{
+   
+color: rgba(0, 0, 0, 0.90);
+font-family: Lato;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 140% */
+}
+
+.textb2{
+ 
+    width: 90%;
+    color: rgba(0, 0, 0, 0.70);
+font-family: Lato;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.learn{
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    color: #F40000;
+}
+
+.bottle-two img{
+    width: 100%;
+}
+
+.daily{
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+    font-family: lato;
+    border-radius: 30px;
+ background-color: green;
+
+font-size: 21px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.daily h1{
+    padding: 60px 0;
+}
+
+.flex-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 60%;
+    height: 55px;
+    
+}
+
+.formmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+background: linear-gradient(107deg, #D5D9DC 1.11%, #E0EBE5 99.4%);
+margin: 0 40px;
+    padding: 70px 0px;
+    text-align: center;
+}
+.form{
+    width: 600px;
+    height: 45px;
+    border: none;
+    
+}
+
+.but-form{
+    height: 45px;
+    width: 200px;
+    background: #6F9950;
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    color: white;
+    border: none;
+    margin: 0 5px;
+}
+
+
+.footer{
+    background-color: #DFE8E4;
+    margin-top: 150px;
+}
+
+.linkcontainter{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 90px;
+    padding: 80px 35px;
+}
+
+.navigation ul li{
+    padding: 8px 0;
+}
+
+.social{
+  
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    width: 100px;
+    padding: 0 10px;
+}
+
+.copyright{
+    padding: 30px 60px;
+    font-family: lato;
+    display: flex;
+    justify-content: space-between;
+}
+/**
+font-family: 'Lato', sans-serif;  **/
